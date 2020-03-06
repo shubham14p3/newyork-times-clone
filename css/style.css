@@ -449,26 +449,25 @@ a .author {
 
 .main-video {
   width: 100%;
+  text-align:center;
 }
 
 .youtube-video {
-  width: 560px;
+  width: 600px;
   height: 315px;
   position: relative;
-  left: 29%;
   top: 110px;
 }
 
 .figcaption-video {
   color: #666;
   font-family: georgia, 'times new roman', times, serif;
-  margin: 10px 30px 0;
   text-align: left;
   font-size: 15px;
   position: relative;
   top: 110px;
-  left: 27%;
-  width: 560px;
+  width: 100%;
+  margin:0 350px;
 }
 
 .figcaption-video small {
@@ -964,14 +963,12 @@ footer {
 .photo-wrapper {
   width: 100%;
   display: block;
-  margin: 43px auto;
-}
+  }
 
 .photo-wrapper img {
   width: 600px;
   height: 400px;
   position: relative;
-  left: 29%;
   top: 120px;
 }
 
