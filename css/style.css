@@ -369,17 +369,6 @@ strong .text-title {
   border-bottom: rgb(192, 190, 190) 1px solid;
 }
 
-.mini-section li,
-.mini-section a {
-  position: relative;
-  top: 15px;
-}
-
-.mini-section a {
-  color: #326891;
-  text-decoration: none;
-}
-
 /* you tube video section */
 
 .main-video {
@@ -390,20 +379,20 @@ strong .text-title {
   width: 560px;
   height: 315px;
   position: relative;
-  left: 28%;
+  left: 29%;
   top: 110px;
 }
 
 .figcaption-video {
   color: #666;
   font-family: georgia, 'times new roman', times, serif;
-  margin: 10px 20px 0;
+  margin: 10px 30px 0;
   text-align: left;
   font-size: 15px;
   position: relative;
   top: 110px;
   left: 27%;
-  width: 500px;
+  width: 560px;
 }
 
 .figcaption-video small {
@@ -975,7 +964,7 @@ footer {
   width: 600px;
   height: 400px;
   position: relative;
-  left: 27%;
+  left: 29%;
   top: 120px;
 }
 
@@ -986,11 +975,10 @@ footer {
   margin-right: auto;
   margin-left: auto;
   color: #666;
-  width: 580px;
+  width: 600px;
   height: 58px;
   position: relative;
   top: 120px;
-  right: 20px;
   margin-top: 10px;
 }
 
