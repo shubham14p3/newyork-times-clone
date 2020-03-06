@@ -372,6 +372,54 @@ strong .text-title {
   border-top: rgb(192, 190, 190) 1px solid;
   border-bottom: rgb(192, 190, 190) 1px solid;
 }
+/* aside */
+
+.aside {
+  width: 210px;
+  margin: 0 120px 0 75px;
+  float: right;
+}
+
+.title-two {
+  color: #000;
+  font-size: 14px;
+  margin: 0 0 15px;
+  padding: 0 0 12px;
+  border-bottom: rgb(192, 190, 190) 1px solid;
+}
+
+.aside-photo {
+  width: 75px;
+  height: 75px;
+}
+
+.aside-photo img {
+  width: 100%;
+}
+
+.article-title {
+  font-size: 14px;
+  line-height: 17px;
+  color: #333;
+  margin: 5px 0 5px 10px;
+  font-weight: 500;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: block;
+  width: 125px;
+}
+
+.link-photo {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.link-photo:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: #000;
+}
 
 /* you tube video section */
 
