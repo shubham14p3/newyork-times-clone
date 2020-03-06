@@ -124,3 +124,40 @@
     width: 100%;
     margin-top: 1.875rem;
 }
+
+.spacer-lg {
+    margin-top: 3.875rem;
+}
+
+.friedman-caption {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.friedman-caption img {
+    width: 100%;
+}
+
+.page-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.side-grid {
+    width: 100%;
+}
+
+.main-grid {
+    width: 100%;
+}
+
+.article-text {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+.spacer-color {
+    background: gray;
+    margin-top: 5.875rem;
+}
