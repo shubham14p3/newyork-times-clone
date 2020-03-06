@@ -141,7 +141,7 @@
 
 .page-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr 1fr;
 }
 
 .side-grid {
@@ -155,6 +155,7 @@
 .article-text {
     font-size: 1.25rem;
     line-height: 1.875rem;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
 
 .spacer-color {
