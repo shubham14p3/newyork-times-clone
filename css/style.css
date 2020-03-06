@@ -333,7 +333,7 @@ a .author {
 
 .sm-icon {
   position: relative;
-  bottom: 20px;
+  /*bottom: 20px;*/
 }
 
 .text-section {
@@ -506,6 +506,7 @@ a .author {
   display: block;
   position: relative;
   top: 150px;
+  margin-bottom: 40px;
 }
 
 .second-title {
