@@ -85,3 +85,25 @@
 .logo {
     display: contents;
 }
+
+.action-btn {
+    padding: 11px 12px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #567b95;
+    border: 1px solid #326891;
+    color: #fff;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 11px 12px 8px;
+    text-transform: uppercase;
+}
+
+.user-actions {
+    display: inline-block;
+}
