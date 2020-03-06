@@ -1,0 +1,39 @@
+.navbar-container {
+    width: 100%;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.navbar {
+    margin: 0 auto;
+    max-width: 1605px;
+    border-bottom: 0;
+    padding: 4px 15px 2px;
+    height: 36px;
+    display: flex;
+    align-items: stretch;
+}
+
+.navbar .menu-icon, .navbar .search-icon-menu button {
+    background: transparent;
+    border: 0
+}
+
+.menu-icon {
+    border: 0;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.menu-icon-svg {
+    display: inline-block;
+    height: 16px;
+    vertical-align: sub;
+    width: 16px;
+}
+
+.search-icon-svg {
+    display: inline-block;
+    height: 16px;
+    vertical-align: sub;
+    width: 16px;
+}
