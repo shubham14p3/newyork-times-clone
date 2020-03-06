@@ -1,6 +1,8 @@
-# Project Name
+# The New York Times (Positioning and Floating Elements)
 
-> One paragraph statement about the project.
+> The New York Times has been a leader in experimenting with the inclusion of multimedia content in traditional stories. That creates all kinds of interesting position questions.
+
+In this project, we will be making a copy of article from the New York Times.
 
 ![screenshot](./app_screenshot.png)
 
@@ -8,13 +10,8 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
+- HTML
+- CSS
 
 
 ## Getting Started
@@ -25,39 +22,26 @@ Additional description about the project and its features.
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+git clone https://github.com/shubham14p3/newyork-times-clone/
 
 
 ## Authors
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@ybadmus](https://github.com/ybadmus)
+- Linkedin: [ybadmus](https://linkedin.com/ybadmus)
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@shubham14p3](https://github.com/shubham14p3)
+- Linkedin: [Shubham14p3](https://linkedin.com/shubham14p3)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/shubham14p3/newyork-times-clone/issues).
 
 ## Show your support
 
@@ -65,9 +49,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Odin Project
 
 ## 📝 License
 
