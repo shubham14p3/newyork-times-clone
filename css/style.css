@@ -333,7 +333,7 @@ a .author {
 
 .sm-icon {
   position: relative;
-  bottom: 20px;
+  /*bottom: 20px;*/
 }
 
 .text-section {
