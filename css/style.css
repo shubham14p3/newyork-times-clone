@@ -355,9 +355,9 @@ a .author {
   color: #326891;
 }
 
-strong .text-title {
-  font-weight: 700;
-  color: #333;
+.text-title {
+  font-weight: bold;
+  color: black;
   font-size: 20px;
 }
 
@@ -422,6 +422,29 @@ strong .text-title {
   text-decoration-color: #000;
 }
 
+.mini-section {
+  box-sizing: border-box;
+  max-width: 600px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  margin: 25px auto;
+  height: 76px;
+  border-top: rgb(192, 190, 190) 1px solid;
+  border-bottom: rgb(192, 190, 190) 1px solid;
+}
+
+.mini-section li,
+.mini-section a {
+  position: relative;
+  top: 15px;
+}
+
+.mini-section a {
+  color: #326891;
+  text-decoration: none;
+}
 /* you tube video section */
 
 .main-video {
