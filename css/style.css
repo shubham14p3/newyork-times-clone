@@ -178,9 +178,13 @@ table {
 }
 
 .friedman-caption {
-    width: 1200px;
+   /* width: 1200px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
+    width: 945px;
+    height: 531px;
+    margin: 0 auto;
+    cursor: pointer;
 }
 
 .friedman-caption img {
