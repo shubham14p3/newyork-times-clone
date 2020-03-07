@@ -242,7 +242,6 @@ main {
 
 .first-image {
   width: 945px;
-  height: 531px;
   margin: 0 auto;
   cursor: pointer;
 }
@@ -271,15 +270,14 @@ main {
 .big-first-container {
   display: block;
   width: 100%;
-  height: 70px;
   position: relative;
-  top: 100px;
+  margin: 20px 0;
+  /* top: 100px; */
 }
 
 .first-container {
   width: 600px;
-  height: 70px;
-  margin: 0 auto 20px;
+  margin: 0 auto;
 }
 
 .author {
@@ -339,16 +337,32 @@ a .author {
 .text-section {
   width: 100%;
   position: relative;
-  top: 120px;
   margin-bottom: 16px;
 }
 
 .text {
   font-size: 20px;
   line-height: 1.875rem;
-  margin: 0 auto 15px;
+  margin-bottom: 20px;
   width: 600px;
   color: #333;
+}
+
+.text-holder {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.text-section-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.text-holder-fullwidth {
+  max-width: 600px;
+  min-width: 600px;
+  margin: 0;
+  display: inline-block;
 }
 
 .text a {
@@ -376,9 +390,15 @@ a .author {
 /* aside */
 
 .aside {
-  width: 210px;
-  margin: 0 120px 0 75px;
-  float: right;
+  min-width: 0;
+  display: inline-block;
+  /* margin: 0 120px 0 75px; */
+  /* float: right; */
+}
+
+.aside-container {
+  width: 200px;
+  margin: 0 0 0 80px;
 }
 
 .title-two {
