@@ -90,6 +90,7 @@ video {
   font-size: 100%;
   vertical-align: baseline;
 }
+
 /* HTML5  display-role reset for older browsers */
 article,
 aside,
@@ -144,7 +145,7 @@ table {
 .navbar .menu-icon,
 .navbar .search-icon-menu button {
   background: transparent;
-  border: 0
+  border: 0;
 }
 
 .menu-icon {
@@ -350,7 +351,6 @@ main {
   width: 100%;
   position: relative;
   margin: 20px 0;
-  /* top: 100px; */
 }
 
 .first-container {
@@ -409,7 +409,6 @@ a .author {
 
 .sm-icon {
   position: relative;
-  /* bottom: 20px; */
 }
 
 .text-section {
@@ -457,7 +456,6 @@ a .author {
 .aside {
   min-width: 0;
   display: inline-block;
- 
 }
 
 .aside-container {
@@ -518,11 +516,12 @@ a .author {
   color: #326891;
   text-decoration: none;
 }
+
 /* you tube video section */
 
 .main-video {
   width: 100%;
-  text-align:center;
+  text-align: center;
   margin-bottom: 16px;
 }
 
