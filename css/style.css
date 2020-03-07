@@ -986,13 +986,13 @@ footer {
 .photo-wrapper {
   width: 100%;
   display: block;
+  margin-bottom: 40px;
   }
 
 .photo-wrapper img {
   width: 600px;
   height: 400px;
   position: relative;
-  top: 120px;
 }
 
 .photo-cap {
@@ -1005,7 +1005,6 @@ footer {
   width: 600px;
   height: 58px;
   position: relative;
-  top: 120px;
   margin-top: 10px;
 }
 
