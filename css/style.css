@@ -392,8 +392,7 @@ a .author {
 .aside {
   min-width: 0;
   display: inline-block;
-  /* margin: 0 120px 0 75px; */
-  /* float: right; */
+ 
 }
 
 .aside-container {
@@ -470,13 +469,13 @@ a .author {
 .main-video {
   width: 100%;
   text-align:center;
+  margin-bottom: 16px;
 }
 
 .youtube-video {
   width: 600px;
   height: 315px;
   position: relative;
-  top: 110px;
 }
 
 .figcaption-video {
@@ -485,9 +484,13 @@ a .author {
   text-align: left;
   font-size: 15px;
   position: relative;
-  top: 110px;
-  width: 100%;
-  margin:0 350px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.figcaption-video span {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
 }
 
 .figcaption-video small {
@@ -525,7 +528,6 @@ a .author {
   width: 100%;
   display: block;
   position: relative;
-  top: 150px;
   margin-bottom: 40px;
 }
 
