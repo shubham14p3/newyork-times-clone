@@ -38,7 +38,7 @@ small,
 strike,
 strong,
 sub,
-sup, 
+sup,
 tt,
 var,
 b,
@@ -105,23 +105,29 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
   list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote: before, 
+blockquote: before,
 blockquote: after,
-q: before, 
+q: before,
 q: after {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -142,16 +148,16 @@ table {
   align-items: stretch;
 }
 
-.navbar .menu-icon,
-.navbar .search-icon-menu button {
-  background: transparent;
-  border: 0;
-}
-
 .menu-icon {
   border: 0;
   display: inline-block;
   margin-right: 8px;
+}
+
+.navbar .menu-icon,
+.navbar .search-icon-menu button {
+  background: transparent;
+  border: 0;
 }
 
 .menu-icon-svg {
@@ -167,7 +173,6 @@ table {
   vertical-align: sub;
   width: 16px;
 }
-
 
 .search-icon-menu {
   border: 0;
@@ -186,7 +191,7 @@ table {
   letter-spacing: 0.7px;
   line-height: 19px;
   font-size: 14.25px;
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   color: black;
@@ -209,7 +214,7 @@ table {
 
 .newyork-times-svg {
   height: 26px;
-   width: 195px;
+  width: 195px;
 }
 
 .logo {
@@ -992,6 +997,7 @@ footer {
   margin: 0 0 35px;
   padding: 0;
 }
+
 .last-list li {
   display: inline-block;
   line-height: 20px;
@@ -1026,7 +1032,7 @@ footer {
   width: 100%;
   display: block;
   margin-bottom: 40px;
-  }
+}
 
 .photo-wrapper img {
   width: 600px;
