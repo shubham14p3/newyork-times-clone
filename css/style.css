@@ -36,8 +36,8 @@ ol, ul {
 blockquote, q {
   quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote: before, blockquote: after,
+q: before, q: after {
   content: '';
   content: none;
 }
@@ -148,7 +148,6 @@ table {
   line-height: 11px;
   font-weight: 700;
   letter-spacing: 0.05em;
-  padding: 11px 12px 8px;
   text-transform: uppercase;
 }
 
@@ -207,7 +206,7 @@ table {
 .article-text {
   font-size: 1.25rem;
   line-height: 1.875rem;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
 .spacer-color {
@@ -373,19 +372,6 @@ a .author {
   font-size: 20px;
 }
 
-.mini-section {
-  box-sizing: border-box;
-  max-width: 600px;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 19px;
-  text-align: center;
-  margin: 25px auto;
-  height: 76px;
-  border-top: rgb(192, 190, 190) 1px solid;
-  border-bottom: rgb(192, 190, 190) 1px solid;
-}
-
 /* aside */
 .aside {
   min-width: 0;
@@ -413,17 +399,6 @@ a .author {
 
 .aside-photo img {
   width: 100%;
-}
-
-.article-title {
-  font-size: 14px;
-  line-height: 17px;
-  color: #333;
-  margin: 5px 0 5px 10px;
-  font-weight: 500;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  display: block;
-  width: 125px;
 }
 
 .link-photo {
@@ -505,19 +480,6 @@ a .author {
   font-family: Georgia, 'Times New Roman', Times, serif;
   display: block;
   width: 125px;
-}
-
-.link-photo {
-  display: flex;
-  flex-direction: row;
-  text-decoration: none;
-  margin-bottom: 15px;
-}
-
-.link-photo:hover {
-  cursor: pointer;
-  text-decoration: underline;
-  text-decoration-color: #000;
 }
 
 /* second container */
