@@ -1,70 +1,59 @@
-# New York Times clone
+# Positioning and Floating Elements - New York Times article page
 
-> Clone of New York Times official website.
+ A clone of a New York Times article page written in HTML, using CSS for styling.
 
-![screenshot](https://user-images.githubusercontent.com/60085697/75983165-c5020180-5ec6-11ea-9c96-3032c044d71b.png)
+A clone of [New York Times article page](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html).
 
-Additional description about the project and its features.
+![screenshot](https://github.com/nurislam-ab/positioning_and_floating_elements/blob/features_branch/screenshot.jpg)
+			
+
+# What it does
+
+It displays New York Times article page, which contains:
+- navigation bar
+- images and videos embedded
+- sidebar
+- footer
+- more and popular news sections
+
 
 ## Built With
 
-- HTML,
-- CSS,
-- Git,
-- GitHub.
+- HTML
+- CSS
+
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo](https://nurislam-ab.github.io/positioning_and_floating_elements/index.html)
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-Before you continue, be sure that you have installed:
-
-A Git GUI.
-An Integrated Development Environment.
-Chrome, Firefox or Opera. Internet Explorer is not supported.
-
-## Authors
-
-👤 **Author1**
-
-- Github: [@ybadmus](https://github.com/ybadmus)
-
-👤 **Author2**
-
-- Github: [@shubham14p3](https://github.com/shubham14p3)
+- Clone the project unto your local machine
+- Open up the `.html` file.
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome! If you want to contribute to HTML-Form, follow these steps:
+Contributions, issues and feature requests are welcome!
 
-Fork this repository.
+Feel free to check the [issues page](https://github.com/nurislam-ab/positioning_and_floating_elements/issues).
 
-Create a branch: git checkout -b <branch_name>.
+# Carlos   
 
-Make your changes and commit them: git commit -m '<commit_message>'
+* Carlos https://github.com/canriquez/
+* Nurislam https://github.com/nurislam-ab
 
-Push to the original branch: git push origin <project_name>/
+# Shubham14p3  
 
-Create the pull request.
-
-Alternatively see the GitHub documentation on creating a pull request. Feel free to check the issues page.
+* Shubham14p3 https://github.com/shubham14p3/
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- My coding partner, cheers
-- Microverse Team,
-- Standup Team (Alvaro, RossielCS, Bertil, 3rkeen) for the motivation
-- etc.
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MiT](lic.url) licensed.
+
+## Enjoy!
