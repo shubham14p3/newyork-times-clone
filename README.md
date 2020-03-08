@@ -1,8 +1,8 @@
-# New York Times website clone
+# New York Times clone
 
-> This is a Clone of the New York Times official website .
+> Clone of New York Times official website .
 
-![screenshot](app_screenshot.png)
+![screenshot](./app_screenshot.png)
 
 Additional description about the project and its features.
 
