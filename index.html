@@ -38,12 +38,18 @@
               </path>
             </svg></a>
         </div>
-        <div class="user-actions">
+        <!--<div class="user-actions">
           <form style="display: inline;" action="https://www.nytimes.com/subscription?campaignId=797YR" method="get">
             <button class="action-btn">Subscribe Now</button>
             <button class="action-btn">Log In</button>
           </form>
         </div>
+        -->
+        <div class="right-navigation">
+          <button class="action-btn" type="submit">Subscribe now</button>
+          <button class="action-btn" type="submit">Login</button>
+          <div class="empty-space"></div>
+      </div>
       </div>
     </section>
     
@@ -302,14 +308,15 @@
     </div>
   </article>
   
-  <figure class="main-video" >
-    <iframe class="youtube-video" src="https://www.youtube.com/embed/ZlfIVEy_YOA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figure class="main-video" >
+    <iframe class="youtube-video" src="https://www.youtube.com/embed/ZlfIVEy_YOA" allow="accelerometer; autoplay;
+     encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <figcaption class="figcaption-video">
       <span>Stanford Professor Andrei Linde celebrates physics breakthrough</span><br>
       <span><small>Video by StanfordUniversity</small></span>
     </figcaption>
   </figure>
-  
+
   <article class="text-section">
     <h2 class="hiddenHeader">hiddenHear</h2>
     <div class="text-holder">
@@ -360,7 +367,7 @@
   
   <div>
     <figure class="photo-wrapper">
-    <center>  <img src="images/second-image.jpg" alt=""></center>
+    <img src="images/second-image.jpg" alt="">
       <figcaption class="photo-cap">
         <span>
           The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — the signature of a universe being wrenched violently apart at its birth.<br>
@@ -939,10 +946,26 @@
       </li>
     </ul>
   </div>
-  <div class="last-footer">
-      <div class="last-footer-text">Access more of The Times by creating a free account or logging in.  
-      </div>
-</div>
+  <div class="access-more">
+    <div class="access-text">Access more of The Times by creating a free account or logging in.</div>
+    <div class="expand">
+        <span>EXPAND</span>
+        <button>
+            <svg width="16" height="16" viewBox="0 0 9 16" version="1.1" class="css-8xcdch">
+                <g id="Canvas" transform="translate(-8250 -1500)">
+                    <g id="Vector">
+                        <use xlink:href="#path0_stroke" transform="translate(8251 1501.5)" fill="#111"></use>
+                    </g>
+                </g>
+                <defs>
+                    <path id="path0_stroke"
+                        d="M 6.5 6.5L 7.20711 7.20711L 7.91421 6.5L 7.20711 5.79289L 6.5 6.5ZM -0.707107 0.707107L 5.79289 7.20711L 7.20711 5.79289L 0.707107 -0.707107L -0.707107 0.707107ZM 5.79289 5.79289L -0.707107 12.2929L 0.707107 13.7071L 7.20711 7.20711L 5.79289 5.79289Z">
+                    </path>
+                </defs>
+            </svg>
+        </button>
+    </div>  
+  </div>
 </footer>
 
 </body>

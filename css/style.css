@@ -139,6 +139,7 @@ table {
 
 .navbar-container {
   width: 100%;
+  position: fixed;
   border-bottom: 1px solid #e2e2e2;
 }
 
@@ -240,10 +241,6 @@ table {
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-}
-
-.user-actions {
-  display: inline-block;
 }
 
 .article-tile {
@@ -1032,9 +1029,14 @@ footer {
   text-transform: capitalize;
 }
 
+.right-navigation {
+  display: inline-block;
+}
+
 .photo-wrapper {
   width: 100%;
   display: block;
+  text-align: center;
   margin-bottom: 40px;
 }
 
@@ -1082,4 +1084,36 @@ footer {
   text-align: center;
   font-size: 15px;
   line-height: 17px;
+}
+/* ---------------------------------------------------
+                     Access More
+---------------------------------------------------- */
+
+.access-more {
+  text-align: center;
+  width: 100%;
+  display: block;
+  border-top: 1px black solid;
+  padding-top: 20px;
+  border-bottom: 15px;
+  padding-bottom: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+}
+
+.access-text {
+  float: left;
+  text-align: center;
+  width: 70%;
+  margin-left: 120px;
+  font-size: 17px;
+  line-height: 17px;
+  color: rgb(0, 0, 0);
+}
+
+.expand {
+  text-align: right;
+  margin-right: 20px;
 }
