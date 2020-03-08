@@ -140,7 +140,7 @@ table {
 .navbar-container {
   width: 100%;
   position: fixed;
-  top: 0px !important;
+  top: 0 !important;
   border-bottom: 1px solid #e2e2e2;
   background-color: #fff;
   z-index: 10;
