@@ -133,6 +133,10 @@ table {
   border-spacing: 0;
 }
 
+.hiddenHeader {
+  display: none;
+}
+
 .navbar-container {
   width: 100%;
   border-bottom: 1px solid #e2e2e2;
