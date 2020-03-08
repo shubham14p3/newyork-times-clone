@@ -1,12 +1,21 @@
-# The New York Times (Positioning and Floating Elements)
+# Positioning and Floating Elements - New York Times article page
 
-> The New York Times has been a leader in experimenting with the inclusion of multimedia content in traditional stories. That creates all kinds of interesting position questions.
+ A clone of a New York Times article page written in HTML, using CSS for styling.
 
-In this project, we will be making a copy of article from the New York Times.
+A clone of [New York Times article page](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html).
 
-![screenshot](app_screenshot.png)
+![screenshot](https://github.com/nurislam-ab/positioning_and_floating_elements/blob/features_branch/screenshot.jpg)
+			
 
-Additional description about the project and its features.
+# What it does
+
+It displays New York Times article page, which contains:
+- navigation bar
+- images and videos embedded
+- sidebar
+- footer
+- more and popular news sections
+
 
 ## Built With
 
@@ -14,43 +23,37 @@ Additional description about the project and its features.
 - CSS
 
 
+## Live Demo
+
+[Live Demo](https://nurislam-ab.github.io/positioning_and_floating_elements/index.html)
+
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
-
-git clone https://github.com/shubham14p3/newyork-times-clone/
-
-
-## Authors
-
-👤 **Author1**
-
-- Github: [@ybadmus](https://github.com/ybadmus)
-- Linkedin: [ybadmus](https://linkedin.com/ybadmus)
-
-👤 **Author2**
-
-- Github: [@shubham14p3](https://github.com/shubham14p3)
-- Linkedin: [Shubham14p3](https://linkedin.com/shubham14p3)
+- Clone the project unto your local machine
+- Open up the `.html` file.
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/shubham14p3/newyork-times-clone/issues).
+Feel free to check the [issues page](https://github.com/nurislam-ab/positioning_and_floating_elements/issues).
+
+# Carlos   
+
+* Carlos https://github.com/canriquez/
+* Nurislam https://github.com/nurislam-ab
+
+# Shubham14p3  
+
+* Shubham14p3 https://github.com/shubham14p3/
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Odin Project
-
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MiT](lic.url) licensed.
+
+## Enjoy!
