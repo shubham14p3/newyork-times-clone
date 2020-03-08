@@ -140,7 +140,13 @@ table {
 .navbar-container {
   width: 100%;
   position: fixed;
+  top: 0px !important;
+  background: white;
   border-bottom: 1px solid #e2e2e2;
+}
+
+.banner {
+  margin-top: 70px;
 }
 
 .navbar {
