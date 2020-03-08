@@ -141,8 +141,9 @@ table {
   width: 100%;
   position: fixed;
   top: 0px !important;
-  background: white;
   border-bottom: 1px solid #e2e2e2;
+  background-color: #fff;
+  z-index: 10;
 }
 
 .banner {
