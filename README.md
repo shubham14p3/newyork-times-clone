@@ -1,16 +1,17 @@
-# Project Name
+# New York Times website clone
 
-> One paragraph statement about the project.
+> This is a Clone of the New York Times official website .
 
-![screenshot](./app_screenshot.png)
+![screenshot](app_screenshot.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML,
+- CSS,
+- Git,
+- GitHub.
 
 ## Live Demo
 
@@ -19,45 +20,40 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+Before you continue, be sure that you have installed:
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+A Git GUI.
+An Integrated Development Environment.
+Chrome, Firefox or Opera. Internet Explorer is not supported.
 
 ## Authors
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@ybadmus](https://github.com/ybadmus)
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@shubham14p3](https://github.com/shubham14p3)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues and feature requests are welcome! If you want to contribute to HTML-Form, follow these steps:
 
-Feel free to check the [issues page](issues/).
+Fork this repository.
+
+Create a branch: git checkout -b <branch_name>.
+
+Make your changes and commit them: git commit -m '<commit_message>'
+
+Push to the original branch: git push origin <project_name>/
+
+Create the pull request.
+
+Alternatively see the GitHub documentation on creating a pull request. Feel free to check the issues page.
 
 ## Show your support
 
@@ -65,10 +61,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
+- My coding partner, cheers
+- Microverse Team,
+- Standup Team (Alvaro, RossielCS, Bertil, 3rkeen) for the motivation
+- etc.
 ## 📝 License
 
 This project is [MIT](lic.url) licensed.
