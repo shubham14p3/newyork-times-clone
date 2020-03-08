@@ -4,7 +4,7 @@
 
 In this project, we will be making a copy of article from the New York Times.
 
-![screenshot](./app_screenshot.png)
+![screenshot](app_screenshot.png)
 
 Additional description about the project and its features.
 
