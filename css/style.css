@@ -343,7 +343,6 @@ figcaption span:last-child {
   display: block;
 }
 
-
 .news-list a {
   color: rgb(0, 0, 0);
   display: inline-block;
@@ -403,6 +402,18 @@ figcaption span:last-child {
   padding: 10px 0;
   text-decoration: none;
   font-size: 11px;
+}
+
+.subs-list li a {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+  padding-bottom: 0;
+  text-decoration: none;
 }
 
 .author a:hover {
@@ -465,6 +476,10 @@ figcaption span:last-child {
 
 .main-content-footer a:hover {
   text-decoration: none;
+}
+
+.most-popular-news a:hover {
+  color: #666;
 }
 
 .content-sections p a:hover {
@@ -859,10 +874,6 @@ figcaption span:last-child {
   margin-left: 30px;
 }
 
-.most-popular-news a:hover {
-  color: #666;
-}
-
 /* ---------------------------------------------------
                      Bottom Nav
 ---------------------------------------------------- */
@@ -933,18 +944,6 @@ figcaption span:last-child {
   margin: 0;
   padding: 0;
   border: 0;
-}
-
-.subs-list li a {
-  color: rgb(0, 0, 0);
-  display: inline-block;
-  text-transform: capitalize;
-  font-size: 16px;
-  font-weight: 700;
-  height: 25px;
-  line-height: 15px;
-  padding-bottom: 0;
-  text-decoration: none;
 }
 
 .subs-list-b {
