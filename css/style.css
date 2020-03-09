@@ -101,13 +101,20 @@ button {
   display: none;
 }
 
+.logo {
+  float: left;
+  align-self: start;
+}
+
 #defaultPosition .logo {
   margin: auto;
 }
 
-.logo {
-  float: left;
-  align-self: start;
+.msg svg {
+  position: absolute;
+  width: 20px;
+  left: 20px;
+  bottom: -9px;
 }
 
 .logo a svg {
@@ -148,6 +155,17 @@ button {
   vertical-align: middle;
 }
 
+.social-icons a svg:hover {
+  background: #fff;
+  border-color: #ccc;
+}
+
+.msg button svg {
+  position: absolute;
+  width: 13px;
+  fill: rgb(102, 102, 102);
+}
+
 #bookmark svg,
 #bookmark-1 svg,
 #comments svg,
@@ -157,11 +175,6 @@ button {
   border-radius: 0;
   width: 16px;
   height: 25px;
-}
-
-.social-icons a svg:hover {
-  background: #fff;
-  border-color: #ccc;
 }
 
 .social-icons #bookmark-1 svg:hover g {
@@ -196,6 +209,12 @@ button {
   font-weight: 500;
   color: #333;
   font-size: 13px;
+}
+
+.infographics span {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
 }
 
 .brief-info h1 span {
@@ -261,6 +280,95 @@ figcaption span:last-child {
   font-weight: 100;
 }
 
+.subscribe-ads p,
+.subscribe-ads a {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+.subscribe-ads a {
+  color: #326891;
+  text-decoration: none;
+  display: block;
+}
+
+.content-sections p a {
+  color: #326891;
+}
+
+.more-news-columns h2 a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.col-3 a {
+  text-decoration: none;
+  color: #121212;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  padding-top: 5px;
+  display: block;
+}
+
+.col-3 span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  color: rgb(153, 153, 153);
+  display: block;
+}
+
+.col-3 a span {
+  text-align: right;
+  line-height: 14px;
+  padding-top: 5px;
+}
+
+.ff-a li a {
+  color: rgb(102, 102, 102);
+  white-space: nowrap;
+  padding: 10px 0;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.ff-b li a {
+  color: rgb(102, 102, 102);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  white-space: nowrap;
+  padding: 10px 0;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.subs-list-b a {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 11px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 21px;
+  text-decoration: none;
+}
+
+.news-list a {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 14px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 16px;
+  text-decoration: none;
+}
+
 .author a:hover {
   text-decoration: none;
 }
@@ -315,8 +423,12 @@ figcaption span:last-child {
   margin-top: 12.5px;
 }
 
-.content-sections p a {
-  color: #326891;
+.pick-element a:hover {
+  text-decoration: underline;
+}
+
+.main-content-footer a:hover {
+  text-decoration: none;
 }
 
 .content-sections p a:hover {
@@ -346,13 +458,6 @@ figcaption span:last-child {
   margin-top: 6px;
 }
 
-.msg svg {
-  position: absolute;
-  width: 20px;
-  left: 20px;
-  bottom: -9px;
-}
-
 .msg svg path {
   fill: rgb(255, 255, 255);
   stroke: rgb(226, 226, 226);
@@ -364,29 +469,10 @@ figcaption span:last-child {
   margin-left: 92%;
 }
 
-.msg button svg {
-  position: absolute;
-  width: 13px;
-  fill: rgb(102, 102, 102);
-}
-
 .subscribe-ads {
   text-align: center;
   padding: 27px;
   color: #333;
-}
-
-.subscribe-ads p,
-.subscribe-ads a {
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 19px;
-}
-
-.subscribe-ads a {
-  color: #326891;
-  text-decoration: none;
-  display: block;
 }
 
 .subscribe-ads-border-top {
@@ -463,10 +549,6 @@ figcaption span:last-child {
   text-decoration: none;
 }
 
-.pick-element a:hover {
-  text-decoration: underline;
-}
-
 .pick-img img {
   display: block;
   width: 40%;
@@ -489,6 +571,16 @@ figcaption span:last-child {
   position: relative;
   float: left;
   padding-bottom: 5px;
+}
+
+.subscribe-column h3 {
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+  text-transform: uppercase;
+  margin: 0;
 }
 
 #paid-post h3 {
@@ -571,12 +663,6 @@ figcaption span:last-child {
   font-size: 13px;
 }
 
-.infographics span {
-  font-size: 11px;
-  font-weight: 800;
-  letter-spacing: 0.05em;
-}
-
 .col-4 {
   width: 25%;
   float: left;
@@ -641,10 +727,6 @@ figcaption span:last-child {
   color: #666;
 }
 
-.main-content-footer a:hover {
-  text-decoration: none;
-}
-
 .comments {
   float: left;
   margin-bottom: 30px;
@@ -707,12 +789,6 @@ figcaption span:last-child {
   color: #333;
 }
 
-.more-news-columns h2 a {
-  text-decoration: none;
-  color: black;
-  font-weight: 700;
-}
-
 .more-news-columns h2 a:hover {
   text-decoration: underline;
 }
@@ -735,31 +811,6 @@ figcaption span:last-child {
   display: block;
   position: relative;
   clear: both;
-}
-
-.col-3 a {
-  text-decoration: none;
-  color: #121212;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 22px;
-  padding-top: 5px;
-  display: block;
-}
-
-.col-3 span {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 20px;
-  letter-spacing: 0.3px;
-  color: rgb(153, 153, 153);
-  display: block;
-}
-
-.col-3 a span {
-  text-align: right;
-  line-height: 14px;
-  padding-top: 5px;
 }
 
 .col-3 img {
@@ -862,32 +913,10 @@ figcaption span:last-child {
   color: #333;
 }
 
-.news-list a {
-  color: rgb(0, 0, 0);
-  display: inline-block;
-  text-transform: capitalize;
-  width: 150px;
-  font-size: 14px;
-  font-weight: 500;
-  height: 23px;
-  line-height: 16px;
-  text-decoration: none;
-}
-
 .subscribe-column {
   padding-left: 15px;
   border-left: 1px solid rgb(226, 226, 226);
   width: 15%;
-}
-
-.subscribe-column h3 {
-  color: rgb(51, 51, 51);
-  font-size: 13px;
-  font-weight: 700;
-  height: 25px;
-  line-height: 15px;
-  text-transform: uppercase;
-  margin: 0;
 }
 
 .subs-icon {
@@ -930,18 +959,6 @@ figcaption span:last-child {
   border-top: 1px solid rgb(226, 226, 226);
 }
 
-.subs-list-b a {
-  color: rgb(0, 0, 0);
-  display: inline-block;
-  text-transform: capitalize;
-  width: 150px;
-  font-size: 11px;
-  font-weight: 500;
-  height: 23px;
-  line-height: 21px;
-  text-decoration: none;
-}
-
 /*
 #region Final Footer
 */
@@ -978,29 +995,12 @@ figcaption span:last-child {
   padding: 0;
 }
 
-.ff-a li a {
-  color: rgb(102, 102, 102);
-  white-space: nowrap;
-  padding: 10px 0;
-  text-decoration: none;
-  font-size: 11px;
-}
-
 .ff-b li {
   display: inline;
   list-style: none;
   margin: 0 0 35px;
   line-height: 20px;
   padding: 0 8px;
-}
-
-.ff-b li a {
-  color: rgb(102, 102, 102);
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  white-space: nowrap;
-  padding: 10px 0;
-  text-decoration: none;
-  font-size: 11px;
 }
 
 /* ---------------------------------------------------
