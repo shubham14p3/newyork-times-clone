@@ -75,6 +75,14 @@ button {
   padding: 0;
 }
 
+.header-nav a {
+  display: block;
+  height: 44px;
+  vertical-align: middle;
+  width: 184px;
+  float: left;
+}
+
 .right-navigation {
   display: inline-block;
 }
@@ -190,6 +198,14 @@ button {
   margin-top: 41px;
 }
 
+.main-content-footer span {
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-bottom: 12px;
+}
+
 .brief-info h1 {
   font-style: italic;
   font-size: 2rem;
@@ -293,6 +309,21 @@ figcaption span:last-child {
   display: block;
 }
 
+.most-popular-news a {
+  border-top: 1px solid #e2e2e2;
+  display: block;
+  text-decoration: none;
+  color: #121212;
+  font-size: 19px;
+  line-height: 23px;
+  font-weight: 500;
+  padding: 15px 0;
+}
+
+.main-content-footer a {
+  color: #666;
+}
+
 .content-sections p a {
   color: #326891;
 }
@@ -336,15 +367,6 @@ figcaption span:last-child {
   font-size: 11px;
 }
 
-.ff-b li a {
-  color: rgb(102, 102, 102);
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  white-space: nowrap;
-  padding: 10px 0;
-  text-decoration: none;
-  font-size: 11px;
-}
-
 .subs-list-b a {
   color: rgb(0, 0, 0);
   display: inline-block;
@@ -367,6 +389,15 @@ figcaption span:last-child {
   height: 23px;
   line-height: 16px;
   text-decoration: none;
+}
+
+.ff-b li a {
+  color: rgb(102, 102, 102);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  white-space: nowrap;
+  padding: 10px 0;
+  text-decoration: none;
+  font-size: 11px;
 }
 
 .author a:hover {
@@ -583,6 +614,17 @@ figcaption span:last-child {
   margin: 0;
 }
 
+.nav-columns h3 {
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+  text-transform: uppercase;
+  width: 150px;
+  margin: 0;
+}
+
 #paid-post h3 {
   font-size: 10px;
   font-weight: bold;
@@ -715,18 +757,6 @@ figcaption span:last-child {
   margin-bottom: 25px;
 }
 
-.main-content-footer span {
-  color: #666;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 16px;
-  margin-bottom: 12px;
-}
-
-.main-content-footer a {
-  color: #666;
-}
-
 .comments {
   float: left;
   margin-bottom: 30px;
@@ -828,17 +858,6 @@ figcaption span:last-child {
   margin-left: 30px;
 }
 
-.most-popular-news a {
-  border-top: 1px solid #e2e2e2;
-  display: block;
-  text-decoration: none;
-  color: #121212;
-  font-size: 19px;
-  line-height: 23px;
-  font-weight: 500;
-  padding: 15px 0;
-}
-
 .most-popular-news a:hover {
   color: #666;
 }
@@ -866,14 +885,6 @@ figcaption span:last-child {
   border-top: 1px solid rgb(226, 226, 226);
 }
 
-.header-nav a {
-  display: block;
-  height: 44px;
-  vertical-align: middle;
-  width: 184px;
-  float: left;
-}
-
 #goto-home-page a {
   float: right;
   color: rgb(86, 123, 149);
@@ -893,17 +904,6 @@ figcaption span:last-child {
   display: block;
   position: relative;
   width: calc(100% / 6);
-}
-
-.nav-columns h3 {
-  color: rgb(51, 51, 51);
-  font-size: 13px;
-  font-weight: 700;
-  height: 25px;
-  line-height: 15px;
-  text-transform: uppercase;
-  width: 150px;
-  margin: 0;
 }
 
 .news-list {
