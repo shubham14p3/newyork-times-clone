@@ -163,15 +163,15 @@ button {
   vertical-align: middle;
 }
 
-.social-icons a svg:hover {
-  background: #fff;
-  border-color: #ccc;
-}
-
 .msg button svg {
   position: absolute;
   width: 13px;
   fill: rgb(102, 102, 102);
+}
+
+.social-icons a svg:hover {
+  background: #fff;
+  border-color: #ccc;
 }
 
 #bookmark svg,
@@ -231,6 +231,15 @@ button {
   font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.05em;
+}
+
+.col-3 span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  color: rgb(153, 153, 153);
+  display: block;
 }
 
 .brief-info h1 span {
@@ -324,16 +333,6 @@ figcaption span:last-child {
   color: #666;
 }
 
-.content-sections p a {
-  color: #326891;
-}
-
-.more-news-columns h2 a {
-  text-decoration: none;
-  color: black;
-  font-weight: 700;
-}
-
 .col-3 a {
   text-decoration: none;
   color: #121212;
@@ -344,27 +343,17 @@ figcaption span:last-child {
   display: block;
 }
 
-.col-3 span {
+
+.news-list a {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 14px;
   font-weight: 500;
-  font-size: 12px;
-  line-height: 20px;
-  letter-spacing: 0.3px;
-  color: rgb(153, 153, 153);
-  display: block;
-}
-
-.col-3 a span {
-  text-align: right;
-  line-height: 14px;
-  padding-top: 5px;
-}
-
-.ff-a li a {
-  color: rgb(102, 102, 102);
-  white-space: nowrap;
-  padding: 10px 0;
+  height: 23px;
+  line-height: 16px;
   text-decoration: none;
-  font-size: 11px;
 }
 
 .subs-list-b a {
@@ -379,16 +368,32 @@ figcaption span:last-child {
   text-decoration: none;
 }
 
-.news-list a {
-  color: rgb(0, 0, 0);
-  display: inline-block;
-  text-transform: capitalize;
-  width: 150px;
-  font-size: 14px;
-  font-weight: 500;
-  height: 23px;
-  line-height: 16px;
+.pick-element a {
   text-decoration: none;
+}
+
+.content-sections p a {
+  color: #326891;
+}
+
+.more-news-columns h2 a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.col-3 a span {
+  text-align: right;
+  line-height: 14px;
+  padding-top: 5px;
+}
+
+.ff-a li a {
+  color: rgb(102, 102, 102);
+  white-space: nowrap;
+  padding: 10px 0;
+  text-decoration: none;
+  font-size: 11px;
 }
 
 .ff-b li a {
@@ -574,10 +579,6 @@ figcaption span:last-child {
   padding-top: 10px;
   position: relative;
   clear: both;
-}
-
-.pick-element a {
-  text-decoration: none;
 }
 
 .pick-img img {
